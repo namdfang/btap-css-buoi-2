@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ui day 001</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/f7100a0df8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="  https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
+  </head>
+  <body>
+    <div class="modal">
+      <!-- menu -->
+      <div class="modal__menu">
+        <ul class="menu__items">
+          <li><a href="">Help</a></li>
+          <li><a href="">Contacts us</a></li>
+          <li class="english"><a href="">English <i class="fas fa-chevron-down"></i></a></li>
+          <li><a href="">Sign up</a></li>
+          <a href=""><i class="fas fa-home"></i></a>
+        </ul>
+      </div>
+      <!-- end-menu -->
+
+      <!-- content -->
+      <div class="modal__container">
+        <div class="login">
+            <div class="login-text">
+                <h2>WELCOME BACK!</h2>
+                <P>Don't have a account, <a href="">Sign up</a></P>
+            </div>
+
+            <div class="login__input">
+                <div class="input-infor">
+                    <label for="">Username</label><br>
+                    <input class="input--email"type="email" placeholder="deniel123@gmail.com">
+                </div>
+
+                <div class="input-infor">
+                    <label for="">Password</label><br>
+                    <div class="input--password">
+                        <input  class="input--password" type="password" placeholder="*******"   >
+                    <i class="fas fa-eye-slash"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="login__support">
+                <div class="pretty p-default p-round ">
+                    <input type="checkbox" />
+                    <div class="state p-primary">
+                      <label>Remember me</label>
+                    </div>
+                  </div>
+                <a href="">Forget password?</a>
+            </div>
+
+            <div class="login__button">
+                <button>Sign in</button>
+            </div>
+        
+            <div class="login__social">
+                <p>-------or continue with-------</p>
+                <span><i class="fab fa-google"></i></i></span>
+                <span><i class="fab fa-facebook"></i></span>
+                <span><i class="fab fa-apple"></i></span>
+            </div>   
+        </div>
+
+        <div class="img">
+            <img src="./img/image.png" alt="">
+        </div>
+      </div>
+      <!-- end-contend -->
+    </div>
+  </body>
+</html>
